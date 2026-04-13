@@ -5,7 +5,7 @@ Benvenuti nel repository del mio portfolio personale. Questo progetto non è sol
 🚀 **Sito Live: [https://darkfireangel.github.io/portfolio/](https://darkfireangel.github.io/portfolio/)**
 
 ## 🎯 Obiettivo del Progetto
-L'obiettivo di questo portfolio è spostare l'attenzione dalla semplice lista di esperienze lavorative alla dimostrazione pratica delle competenze tramite **Case Studies** dettagliati. Ogni progetto è presentato analizzando il **Problema**, la **Soluzione** tecnica e i **Risultati** ottenuti.
+L'obiettivo di questo portfolio è spostare l'attenzione dalla semplice lista di esperienze lavorative alla dimostrazione pratica delle competenze tramite **analisi tecniche dettagliate**. Ogni progetto è presentato analizzando il **Problema**, la **Soluzione** tecnica e i **Risultati** ottenuti.
 
 ## 🛠️ Stack Tecnologico
 - **Framework**: Angular 18 (Standalone Components)

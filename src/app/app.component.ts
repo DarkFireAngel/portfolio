@@ -49,7 +49,7 @@ export class AppComponent {
     }
   ];
 
-  // Projects (Case Studies) - Real Project + Placeholder
+  // Projects (Case Studies) - Real Project
   projects = [
     {
       name: 'AI Agents Pipeline: Legacy to Python',
@@ -59,17 +59,7 @@ export class AppComponent {
       solution: 'Pipeline multi-agente (Analyzer, Architect, Generator, Reviewer, Output Builder) con cicli di feedback per garantire equivalenza funzionale.',
       results: 'Codice Python modulare e moderno con "Functional Mirroring" garantito, tracciabilità completa ed interfaccia interattiva.',
       github: 'https://github.com/DarkFireAngel/ai-agents-pipeline-legacy-modernization',
-      image: 'logo-an.png'
-    },
-    {
-      name: 'Project Case Study #2',
-      tagline: 'Interfaccia Web Personalizzata in [Tech]',
-      tech: ['Angular', 'TypeScript', 'SCSS'],
-      problem: 'Superare i limiti di un layout standard per creare un\'esperienza utente immersiva.',
-      solution: 'Sviluppo di componenti custom con gestione avanzata dello stato e animazioni ottimizzate.',
-      results: 'UI rifinita e adattabile ad ogni risoluzione, focalizzata sulla precisione del brand.',
-      github: 'https://github.com/DarkFireAngel',
-      image: 'logo-an.png'
+      image: 'pipeline-workflow.png'
     }
   ];
 
