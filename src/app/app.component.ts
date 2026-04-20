@@ -12,11 +12,12 @@ import { CommonModule } from '@angular/common';
 export class AppComponent {
   // Personal Info
   name = 'ANGELO NICOLACI';
-  title = 'Full-stack developer';
+  title = 'SOFTWARE DEVELOPER | FULL STACK';
   tagline = 'Specializzato in sistemi backend e frontend personalizzati tramite codice pulito e creatività.';
   
-  bioDetailed = `Sviluppatore Full Stack specializzato in Back-end con solide basi Front-end. Scrivo codice pulito, ordinato e facile da mantenere, garantendo sempre una documentazione tecnica strutturata e ben stilata.
-  Il mio approccio è preciso, curato e verticale: non mi fermo alla superficie, ma analizzo ogni dettaglio dell'architettura per trasformare le idee in applicazioni solide e rifinite.`;
+  bioDetailed = `Sviluppatore Full-Stack con focus sul back-end e solide competenze front-end, specializzato in Angular, TypeScript e Java Spring.
+  Realizzo codice pulito, mantenibile e ben documentato, con attenzione alla struttura dell'architettura e alla qualità del software.
+  Affronto ogni progetto in modo metodico e orientato alla risoluzione dei problemi, trasformando le idee in applicazioni stabili, scalabili e curate nei dettagli.`;
 
   email = 'angelo.nicolaci.commerciale@gmail.com';
   phone = '+39 392 646 6602';
@@ -70,21 +71,21 @@ export class AppComponent {
       company: 'Aitho',
       location: 'Catania (CT)',
       period: 'Febbraio 2026 - Marzo 2026',
-      description: 'Studio ed applicazione di tecniche AI per la modernizzazione di linguaggi legacy.'
+      description: 'Percorso formativo su tecniche di modernizzazione di codice legacy tramite strumenti AI, con focus su analisi, refactoring e migrazione di sistemi datati. Tecnologie usate: AI Tools, Python, LangGraph, MLflow, Marimo.'
     },
     {
       role: 'Academy Java Developer',
       company: 'IGgroup',
       location: 'Catania (CT)',
       period: 'Gennaio 2026 - Febbraio 2026',
-      description: 'Percorso intensivo nello sviluppo Java e Framework moderni.'
+      description: 'Formazione intensiva sullo sviluppo back-end in Java, con focus su Spring Boot, architetture REST e pattern enterprise. Tecnologie usate: Java, Spring Boot, REST API, Maven.'
     },
     {
-      role: 'Front-end Developer (Tirocinio)',
+      role: 'Front-end Developer',
       company: 'Darwin Technologies Srl',
       location: 'Catania (CT)',
       period: 'Settembre 2025 - Dicembre 2025',
-      description: 'Sviluppo di interfacce web moderne e responsive utilizzando tecnologie frontend all\'avanguardia.'
+      description: 'Sviluppo feature e refactoring di componenti Angular esistenti. Versioning con Git/GitHub (workflow feature-branch) e task tracking su Azure DevOps. Traduzione di mockup Figma in interfacce responsive. Tecnologie usate: Angular, TypeScript, SCSS, Azure DevOps, Git/GitHub, Figma.'
     }
   ];
 
@@ -109,13 +110,13 @@ export class AppComponent {
   // Certifications
   certifications = [
     {
-      title: 'Attestato Form. AI for Legacy Language Modernization',
+      title: 'Attestato AI for Legacy Language Modernization',
       issuer: 'Aitho',
       date: '2026'
     },
     {
-      title: 'Attestato Forma.Temp (Corso Java)',
-      issuer: 'IGgroup',
+      title: 'Attestato Java Developer',
+      issuer: 'IGgroup / Forma.Temp',
       date: '2026'
     },
     {
@@ -124,7 +125,7 @@ export class AppComponent {
       date: '2023'
     },
     {
-      title: 'Certificazioni GameJam – Game4Value',
+      title: 'Certificazioni Game4Value',
       issuer: 'Fondazione ANIA',
       date: 'Edizioni 2021 - 2022'
     },
@@ -149,7 +150,7 @@ export class AppComponent {
       period: 'Novembre 2023 - Febbraio 2026'
     },
     {
-      degree: 'Istituto Tecnico Industriale - Indirizzo Informatico',
+      degree: 'Diploma Tecnico Informatico',
       info: 'Diploma EQF Livello 4',
       school: 'Istituto Tecnico Industriale Cucuzza Euclide, Caltagirone (CT)',
       period: 'Settembre 2018 - Luglio 2023'
