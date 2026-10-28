@@ -50,7 +50,7 @@ export class AppComponent {
     }
   ];
 
-  // Projects (Case Studies) - Real Project
+  // Projects (Case Studies) - Real Projects
   projects = [
     {
       name: 'AI Agents Pipeline: Legacy to Python',
@@ -61,6 +61,26 @@ export class AppComponent {
       results: 'Codice Python modulare e moderno con "Functional Mirroring" garantito, tracciabilità completa ed interfaccia interattiva.',
       github: 'https://github.com/DarkFireAngel/ai-agents-pipeline-legacy-modernization',
       image: 'pipeline-workflow.png'
+    },
+    {
+      name: 'MyMitico App',
+      tagline: 'App Android per programma fedeltà con QR scanner e backend Firebase',
+      tech: ['Angular', 'TypeScript', 'Capacitor', 'Firebase', 'Tailwind CSS'],
+      problem: 'Creare un sistema di fidelizzazione clienti digitale, fruibile su Android, con gestione premi, scansione scontrini e pannello admin.',
+      solution: 'App web progressiva (PWA) convertita in APK Android tramite Capacitor, con autenticazione Firebase, Firestore realtime, scanner QR/codice e dashboard admin.',
+      results: 'App Android rilasciata e distribuita (v1.0.1) con scanner integrato, sistema punti, premi riscattabili e interfaccia admin completa.',
+      github: 'https://github.com/DarkFireAngel/mymitico-app',
+      image: 'mymitico-preview.png'
+    },
+    {
+      name: 'DMI Bot Avvisi Canale F-N',
+      tagline: 'Bot Telegram per monitoraggio avvisi docenti UniCT – CdL Informatica L-31',
+      tech: ['Python', 'Telegram API', 'BeautifulSoup', 'SQLite', 'Docker', 'Railway'],
+      problem: 'Gli studenti del Canale F-N del CdL Informatica UniCT perdevano avvisi importanti dei docenti per mancanza di notifiche automatiche.',
+      solution: 'Bot Telegram con web scraping continuo (ogni 5 min) del portale DMI, filtro intelligente per Canale F-N, orario lezioni dinamico con Smart Time e database SQLite per gestione iscritti.',
+      results: 'Bot attivo 24/7 su Railway con CI/CD automatico, notifiche in tempo reale, orario interattivo multi-anno e pannello admin con /broadcast.',
+      github: 'https://github.com/DarkFireAngel/dmi-fn-telegram-bot',
+      image: 'dmi-bot-preview.png'
     }
   ];
 
